@@ -1,0 +1,28 @@
+.control.connetRobo{
+    margin-bottom: 35px;
+}
+.sidebarConnectRobo{
+    width: 100%;
+}
+.sidebarConnectRoboContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+:where(.css-sk7ap8).ant-input:focus{
+    border-color: #2DFDFE !important;
+}
+
+@media(max-width:768px){
+    .sidebarConnectRoboContainer {
+        width: 100%;
+    }
+    .hero-background-screen.customHeroBg{
+        flex-direction: column;
+    }
+}
+@media(max-width:390px){
+    .sidebarConnectRoboContainer {
+        width: 100%;
+    }
+}

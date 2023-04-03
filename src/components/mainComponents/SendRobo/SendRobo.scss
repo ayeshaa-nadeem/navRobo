@@ -1,0 +1,101 @@
+.sendRoboInnerContainer {
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.sendRoboContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.sendRoboHeading {
+  font-size: 38px;
+  font-weight: 400;
+  line-height: 45px;
+  letter-spacing: 8px;
+  text-align: center;
+  color: white;
+  display: block;
+}
+.rideAccept {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0.3em;
+  text-align: center;
+  display: block;
+  color: #7e7e7e;
+  margin-top: 5%;
+}
+.rideName {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 55px;
+  color: #ffffff;
+  display: block;
+  letter-spacing: 0.3em;
+}
+.rideNameContainer {
+  height: 15vh;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  flex-direction: column;
+}
+span.rideAccept.sendRobo {
+  padding-bottom: 30px;
+}
+span.terms-hyperlink.sendRobo {
+  padding-bottom: 25px;
+}
+.ridenameContainer.sendRobo {
+  height: 20px;
+}
+.hero-text.sendRobo {
+  width: 95%;
+  line-height: 50px;
+}
+@media (max-width: 1400px) {
+  .sendRoboInnerContainer {
+    height: 70vh;
+  }
+  .hero-background-screen.sendRobo-bg-screen {
+    height: 80vh;
+  }
+  .rideNameContainer{
+    height: 160px;
+  }
+}
+@media (max-width: 768px) {
+  .sendRoboHeading {
+    font-size: 26px;
+    line-height: 35px;
+  }
+  .rideAccept {
+    font-size: 12px;
+    margin-top: 4%;
+  }
+  .rideName {
+    font-size: 18px;
+  }
+  .rideNameContainer {
+    height: 205px;
+  }
+}
+@media (max-width: 390px) {
+  .sendRoboHeading {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .rideName {
+    font-size: 12px;
+    line-height: 30px;
+  }
+  .rideNameContainer {
+    height: 155px;
+  }
+}

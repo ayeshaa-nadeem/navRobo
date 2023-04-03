@@ -1,0 +1,36 @@
+header.ant-layout-header {
+  height: 115px !important;
+  background-color: black !important;
+  border-bottom: 1px solid black;
+}
+.logo, .sidelogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 125px;
+}
+.sidelogo img{
+    width: 40px;
+}
+.navContent{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    height: 10vh;
+    width: 90%;
+    margin: auto;
+}
+.navContentParent{
+    background-color: black;
+    height: 10vh;
+}
+@media(max-width:390px){
+    .logo img {
+        width: 80px;
+    }
+    .sidelogo img {
+        width: 25px;
+    }
+}

@@ -1,0 +1,44 @@
+.auth-input-field {
+  background-color: #000000;
+  border-color: #575757;
+  letter-spacing: 0.2rem;
+  border-radius: 12rem;
+  color: white;
+  font-size: 12px;
+  font-weight: 400;
+  border-width: 1.4px;
+  width: 461px;
+  height: 42px;
+  max-width: 461px;
+  border-style: solid;
+  margin-top: 2%;
+  margin-bottom: 1%;
+}
+:where(.css-sk7ap8).ant-btn-default:not(:disabled):hover {
+  color: white;
+  border-color: white;
+}
+:where(.css-sk7ap8).ant-input:hover{
+  border-color: #2DFDFE !important;
+}
+:where(.css-dev-only-do-not-override-sk7ap8).ant-input:focus, :where(.css-dev-only-do-not-override-sk7ap8).ant-input-focused{
+  border-color: #2DFDFE !important;
+}
+:where(.css-dev-only-do-not-override-sk7ap8).ant-input-affix-wrapper:not(:where(.css-dev-only-do-not-override-sk7ap8).ant-input-affix-wrapper-disabled):hover{
+  border-color: #2DFDFE !important;
+} 
+:where(.css-sk7ap8).ant-input:focus{
+  border-color: #2DFDFE !important;
+}
+@media screen and (max-width: 550px) {
+  .auth-input-field {
+    letter-spacing: 0.2rem;
+    border-radius: 12rem;
+    font-size: 12px;
+    font-weight: 400;
+    border-width: 1.4px;
+    width: 390px;
+    height: 37px;
+    max-width: 390px;
+  }
+}

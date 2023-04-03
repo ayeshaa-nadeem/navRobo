@@ -1,0 +1,13 @@
+body {
+  font-family: proxima nova, sans-serif;
+  font-weight: 400, 500, 600, 700, 800;
+  font-style: normal;
+  text-decoration: none;
+}
+html {
+  scroll-behavior: smooth;
+}
+section.ant-layout.layout.css-dev-only-do-not-override-sk7ap8 {
+  height: 100vh;
+  background-color: black;
+}

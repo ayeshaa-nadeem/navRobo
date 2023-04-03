@@ -1,0 +1,70 @@
+.password-field-move-down {
+  margin-top: 3%;
+}
+.inputwBtnSignUpOne {
+  height: 375px;
+  display: flex;
+  align-items: end;
+}
+.terms-text {
+  color: #7e7e7e;
+  font-weight: 350;
+  font-size: 10px;
+  letter-spacing: 0.27rem;
+  margin-top: 3%;
+  width: 461px;
+  line-height: 1.9;
+}
+.forgot-password-text{
+  font-size: 10px;
+}
+.inputwBtnSignUpTwo {
+  height: 360px;
+  display: flex;
+  align-items: end;
+}
+
+.ant-form-item-explain-error {
+  width: 450px;
+  margin-bottom: 15px;
+}
+.loginField {
+  height: 325px;
+}
+:where(.css-dev-only-do-not-override-sk7ap8).ant-form-item{
+  margin-bottom: 10px !important;
+}
+.ant-form-item.formField.css-sk7ap8 {
+  margin-bottom: 10px;
+}
+div#basic_last_name {
+  padding-bottom: 50px;
+}
+.signUpDiv.signUp {
+  padding-bottom: 35px;
+}
+
+@media screen and (max-width: 550px) {
+  .password-field-move-down {
+    margin-top: 4%;
+  }
+  .terms-text {
+    color: #7e7e7e;
+    font-weight: 350;
+    font-size: 7px;
+    letter-spacing: 0.3rem;
+    margin-top: 3%;
+    width: 390px;
+  }
+  label.auth-label-text.password-field-move-down{
+    font-size: 10px;
+  }
+  label.auth-label-text {
+    font-size: 10px;
+}
+}
+@media(max-width:390px){
+  .terms-text{
+    width: 300px;
+  }
+}

@@ -1,0 +1,2 @@
+import ResetPasswordConfirmation from "./ResetPasswordConfirmation"
+export default ResetPasswordConfirmation;

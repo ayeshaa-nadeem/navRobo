@@ -1,0 +1,69 @@
+.log-in-screen-auth-log-in-button {
+  background-color: black;
+  color: white;
+  font-size: 11px;
+  font-weight: 400;
+  border-color: #00ffff;
+  border-width: 0.8px;
+  width: 461px;
+  height: 42px;
+  box-shadow: inset 0 0 0.4em 0 #00ffff, 0 0 0.4em 0 #00ffff;
+  letter-spacing: 0.2rem;
+  border-radius: 12rem;
+}
+.log-in-screen-auth-log-in-button:hover {
+  background-color: black;
+  color: white;
+  font-size: 11px;
+  font-weight: 400;
+  border-color: #ffffff;
+  border-width: 0.8px;
+  width: 461px;
+  height: 42px;
+  box-shadow: inset 0 0 0.4em 0 #ffffff, 0 0 0.4em 0 #ffffff;
+  letter-spacing: 0.2rem;
+  border-radius: 12rem;
+}
+:where(.css-dev-only-do-not-override-sk7ap8).ant-btn-default:not(:disabled):hover {
+   color: white;
+  border-color: white;
+}
+
+.disabledBtnStyling{
+  background-color: black;
+  color: gray !important;
+  font-size: 11px;
+  font-weight: 400;
+  border-color: gray;
+  border-width: 0.8px;
+  width: 461px;
+  height: 42px;
+  box-shadow: inset 0 0 0.4em 0 #00ffff, 0 0 0.4em 0 #00ffff;
+  letter-spacing: 0.2rem;
+  border-radius: 12rem;
+}
+
+@media screen and (max-width: 550px) {
+  .log-in-screen-auth-log-in-button, .disabledBtnStyling {
+    font-size: 10px;
+    font-weight: 400;
+    border-width: 0.8px;
+    width: 390px;
+    height: 37px;
+    margin-top: 45px;
+    letter-spacing: 0.2rem;
+    border-radius: 12rem;
+    margin-top: 2.35%;
+  }
+  .log-in-screen-auth-log-in-button:hover {
+    font-size: 10px;
+    font-weight: 400;
+    border-width: 0.8px;
+    width: 390px;
+    height: 37px;
+    margin-top: 45px;
+    letter-spacing: 0.2rem;
+    border-radius: 12rem;
+    margin-top: 2.35%;
+  }
+}

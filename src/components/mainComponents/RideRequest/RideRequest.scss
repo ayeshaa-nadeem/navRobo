@@ -1,0 +1,236 @@
+.fullPg{
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-subtext.centerText {
+  text-align: center;
+  font-family: Proxima Nova;
+  font-weight: 400;
+  font-size: 18px;
+}
+.hero-subtext.centerText {
+  color: white;
+}
+.rideReqText {
+  height: 150px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  flex-direction: column;
+}
+.signUpbtn {
+  height: 55px;
+  display: flex;
+  align-items: end;
+}
+.ant-modal-content {
+  background-color: black !important;
+  width: 100%;
+}
+.ant-modal.css-dev-only-do-not-override-sk7ap8 {
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.goOfflineBtn {
+  display: flex;
+  align-items: end;
+}
+.optimusOnlineContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.goOfflineBtn button {
+  width: 215px;
+  height: 50px;
+  border-color: white;
+  box-shadow: inset 0 0 0.4em 0 #ffffff, 0 0 0.4em 0 #ffffff;
+}
+.goOfflineBtn button:hover {
+  width: 215px;
+  height: 50px;
+}
+.rideReqContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.rideReqModalBtnContainer {
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.twoMinAgo {
+  display: flex;
+  justify-content: end;
+}
+.twoMinAgo span {
+  font-size: 12px;
+}
+.modalStyling {
+  border: 1px solid #00ffff;
+  height: 490px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.ant-modal.css-sk7ap8 {
+  background-color: black !important;
+  width: 590px !important;
+}
+.sidebarContainer {
+  width: 26%;
+  height: 100%;
+}
+.sidebarContainerDiv {
+  width: 74%;
+}
+.sidebarInnerContainer {
+  height: 100%;
+  padding-top: 80px;
+}
+.sidebarInnerContainer ul {
+  list-style: none;
+  padding-left: 100px;
+}
+.sidebarInnerContainer ul li {
+  color: white;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  letter-spacing: 0.3em;
+  cursor: pointer;
+}
+.hero-background-screen.customHeroBgRideReq{
+  height: 85vh;
+}
+.main-auth-button-container{
+  height: 130px;
+}
+span.hero-subtext{
+  color: white;
+}
+span.terms-hyperlink.rideReq {
+  padding-bottom: 35px;
+}
+.rideReqBtn {
+  padding-bottom: 15px;
+}
+@media (max-width: 1600px) {
+  .sidebarInnerContainer ul li {
+    font-size: 18px;
+  }
+  .sidebarInnerContainer ul {
+    padding-left: 80px;
+  }
+  .hero-background-screen.customHeroBgRideReq {
+    height: 70vh;
+  }
+}
+@media (max-width: 1400px) {
+  .sidebarInnerContainer ul li {
+    font-size: 14px;
+  }
+  .sidebarInnerContainer ul {
+    padding-left: 70px;
+  }
+  .modalStyling{
+    height: 430px;
+  }
+  .rideReqText{
+    height: 115px;
+  }
+}
+@media (max-width: 1200px) {
+  .sidebarInnerContainer ul {
+    padding-left: 60px;
+  }
+}
+@media (max-width: 992px) {
+  .twoMinAgo span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .sidebarInnerContainer ul li {
+    font-size: 13px;
+  }
+  .sidebarInnerContainer ul {
+    padding-left: 50px;
+  }
+}
+@media (max-width: 768px) {
+  .ant-modal-body {
+    margin: auto;
+    display: flex;
+  }
+  .hero-text {
+    font-size: 16px;
+    margin-top: 5%;
+  }
+  .hero-subtext {
+    margin-top: 3%;
+  }
+  .hero-subtext.centerText {
+    font-size: 14px;
+  }
+  .rideReqText {
+    height: 100px;
+  }
+  .sidebarInnerContainer ul {
+    padding-left: 35px;
+  }
+  .rideReqContainer {
+    width: 100%;
+  }
+  .sidebarContainer {
+    width: 75%;
+    text-align: left;
+    margin: auto;
+  }
+  .customHeroBgRideReq {
+    flex-direction: column;
+  }
+  .sidebarContainer {
+    width: 100%;
+  }
+  .rideReqModalBtnContainer {
+    height: 935px;
+  }
+}
+@media (max-width: 390px) {
+  .sidebarInnerContainer ul li {
+    font-size: 12px;
+  }
+  .hero-text {
+    font-size: 12px;
+  }
+  .rideReqModalBtnContainer {
+    height: 890px;
+  }
+  .goOfflineBtn button {
+    width: 160px;
+    height: 40px;
+  }
+  .sidebarInnerContainer {
+    padding-top: 30px;
+  }
+  .modalStyling {
+    height: 490px;
+  }
+  .sidebarInnerContainer ul {
+    padding-left: 25px;
+  }
+}

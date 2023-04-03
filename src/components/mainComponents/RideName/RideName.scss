@@ -1,0 +1,95 @@
+.ridename {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #7e7e7e;
+  display: block;
+}
+.ridenameContainer {
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+.ridenameText {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 39px;
+  color: #ffffff;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+.rideCurrently {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  text-align: center;
+  color: #2dfdfe;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  letter-spacing: 0.3rem;
+}
+.ridenameModal {
+  flex-direction: column;
+}
+.customRideName {
+  height: 135px;
+}
+.ant-modal-content {
+  background-color: black !important;
+}
+.rideNameModalStyling {
+  width: 600px;
+}
+.ant-modal.css-dev-only-do-not-override-sk7ap8 {
+  width: 610px !important;
+}
+.rideNameRideReq {
+  width: 100%;
+}
+span.terms-hyperlink.rideName {
+  padding-bottom: 30px;
+}
+@media (max-width: 1600px) {
+  .rideName-hero-background-screen.hero-background-screen {
+    height: 80vh;
+  }
+}
+@media (max-width: 1400px) {
+  .rideName-hero-background-screen {
+    height: 585px;
+  }
+  .rideReqModalBtnContainer.ridenameModal {
+    height: 390px;
+  }
+}
+@media (max-width: 768px) {
+  .ridenameText {
+    font-size: 18px;
+  }
+  .rideCurrently {
+    font-size: 16px;
+    height: 32px;
+  }
+  .ridenameModal {
+    height: 845px;
+  }
+}
+@media (max-width: 390px) {
+  .rideCurrently {
+    font-size: 12px;
+    width: 205px;
+    height: 50px;
+    line-height: 20px;
+  }
+  .ridenameModal {
+    height: 635px;
+  }
+}

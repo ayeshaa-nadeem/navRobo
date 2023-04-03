@@ -1,0 +1,66 @@
+.forgot-password-text {
+  text-decoration: none;
+  color: #00ffff;
+  font-weight: 350;
+  font-size: 9px;
+  letter-spacing: 0.3rem;
+  margin-top: 4%;
+  display: block;
+}
+.inputwBtnLogin{
+  display: flex;
+  align-items: end;
+}
+span.ant-input-suffix svg{
+  color: white;
+}
+input#basic_password {
+  background-color: black !important;
+  color: white !important;
+}
+input#basic_password:hover{
+  border: #2DFDFE !important;
+}
+.ant-form-item.formField.css-sk7ap8.ant-form-item-has-success{
+  margin-bottom: 10px;
+}
+span.ant-input-affix-wrapper.ant-input-password.auth-input-field.ant-input-affix-wrapper-status-success.css-dev-only-do-not-override-sk7ap8:hover{
+  border-color:#2DFDFE !important
+}
+:where(.css-dev-only-do-not-override-sk7ap8).ant-input:hover{
+  border-color: #2DFDFE !important;
+}
+.signupLogin{
+  display: flex;
+  justify-content: space-between;
+  width: 420px;
+  padding-bottom: 60px;
+}
+:where(.css-sk7ap8).ant-input:focus{
+  border-color: #2DFDFE !important;
+}
+:where(.css-sk7ap8).ant-input-affix-wrapper:focus{
+  border-color: #2DFDFE !important;
+}
+:where(.css-sk7ap8).ant-input-affix-wrapper:not(:where(.css-sk7ap8).ant-input-affix-wrapper-disabled):hover{
+  border-color: #2DFDFE !important;
+}
+@media screen and (max-width: 550px) {
+  .forgot-password-text {
+    font-weight: 350;
+    font-size: 8px;
+    letter-spacing: 0.3rem;
+  }
+  .signupLogin{
+    width: 385px;
+  }
+  label.auth-label-text.password-field-move-down{
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 390px)
+{
+.signupLogin {
+    width: 295px;
+}
+}

@@ -1,0 +1,87 @@
+.hero-background {
+  background-color: #000000;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-logo-main-auth-screen {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+.hero-text {
+  color: white;
+  font-weight: 300;
+  font-size: 18px;
+  letter-spacing: 0.4rem;
+  margin-top: 8%;
+  text-align: center;
+}
+.hero-subtext {
+  color: #7e7e7e;
+  font-weight: 350;
+  font-size: 14px;
+  letter-spacing: 0.3rem;
+  margin-top: 5%;
+}
+.main-auth-button-container {
+  height: 190px;
+  display: flex !important;
+  justify-content: end !important;
+}
+.main-auth-button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.nav-logo-main-auth-screen img {
+  width: 10rem;
+}
+
+@media screen and (max-width: 769px) {
+  .main-auth-button-container {
+    height: 150px;
+  }
+  .nav-logo-main-auth-screen img {
+    width: 10rem;
+  }
+}
+@media screen and (max-width: 550px) {
+  .nav-logo-main-auth-screen {
+    width: 8rem;
+    margin: auto;
+  }
+  .hero-text {
+    color: white;
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: 0.4rem;
+    margin-top: 2%;
+  }
+  .hero-subtext {
+    color: #7e7e7e;
+    font-weight: 350;
+    font-size: 10px;
+    letter-spacing: 0.3rem;
+    margin-top: 10px;
+  }
+}
+@media (max-width: 390px) {
+  .nav-logo-main-auth-screen img {
+    width: 5rem;
+  }
+  .hero-text {
+    font-size: 12px;
+    margin-top: 3%;
+}
+.hero-subtext {
+  width: 290px;
+  margin: auto;
+  text-align: center;
+}
+.log-in-screen-auth-log-in-button, .disabledBtnStyling{
+  width: 300px;
+}
+}
